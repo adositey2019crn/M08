@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebed;
+}
+
+#barra{
+  height: 43px;
+  background-color: #5066ae;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#contingut{
+  height: 2000px;
+  width: 852px;
+  margin: 0 auto;
+}
+
+#contingut #cap{
+  height: 358px;
+  background-color: white;
+  height: 358px;
+  background-color: red;
+  background-image: url(img/backg.png);
+  box-shadow: 0px 0px 1px grey;
+  margin-bottom: 12px;
+  border:solid 1px #DDD;
+  border-radius: 3px;
+}
+
+
+#fotoperfil{
+  height: 169px;
+  width: 169px;
+  position: absolute;
+  background-image: url(img/photo.png);
+  top: 218px;
+  left: 550px;
+}
+
+#vacio{
+  height: 43px;
+  background-color: white;
+  width: 850px;
+  margin-top: 358px;
+  position:relative;
+}
+
+#contingut #menu{
+  float: right;
+  position: relative;
+  top: -201px;
+  height: 43px;
+  padding: 0;
+  margin: 0;
+  height: 43px;
+  width: auto;
+}
+
+#contingut #cap h2{
+  position: relative;
+  top: 50px;
+  left: -85px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+li{
+  margin: 0 0 0 1px;
+  float: left;
+  list-style-type: none;
+  background-color: white;
+  display: block;
+  height: 43px;
+  padding: 0px 15px;
+  margin-top: 102px;
+}
+
+#principal{
+  height: 1504px;
+  margin-top: 43px;
+}
+
+#esquerra {
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  height: 200px;
+  width: 322px;
+  margin-top: 56px;
+}
+
+#fotos{
+  background-color: red;
+}
