@@ -148,3 +148,19 @@ body{
 #fotos h3{
   background-position: 0 -24px;
 }
+
+#presentacio .estudis{
+  list-style-image: url(iconetes/icones_estudis.png);
+}
+
+#presentacio .casa{
+  list-style-image: url(iconetes/icones_domicili.png);
+}
+
+#presentacio .ciudad{
+  list-style-image: url(iconetes/icones_ubicacio.png);
+}
+
+#presentacio .estado{
+  list-style-image: url(iconetes/icones_sentimental.png);
+}
