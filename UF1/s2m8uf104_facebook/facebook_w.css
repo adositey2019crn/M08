@@ -38,7 +38,7 @@ body{
   position: absolute;
   background-image: url(img/photo.png);
   top: 218px;
-  left: 550px;
+  margin-left: 50px;
 }
 
 #vacio{
@@ -78,6 +78,9 @@ li{
   height: 43px;
   padding: 0px 15px;
   margin-top: 102px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 43px;
 }
 
 #principal{
@@ -85,15 +88,29 @@ li{
   margin-top: 43px;
 }
 
-#esquerra {
+aside{
+  width: 322px;
+  float: left;
+}
+
+.esquerra {
   background-color: white;
   border-radius: 3px;
   border: solid 1px #DDD;
   height: 200px;
   width: 322px;
   margin-top: 56px;
+  float: left;
+  clear: left;
 }
 
 #fotos{
   background-color: red;
+}
+
+.dreta{
+  height: 100px;
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
 }
