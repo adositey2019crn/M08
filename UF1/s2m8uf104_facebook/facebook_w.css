@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: #e9ebed;
+  font-family: 'Lucida Grande', tahoma, Segoe UI, San Francisco, Roboto;
 }
 
 #barra{
@@ -37,7 +38,7 @@ body{
   width: 169px;
   position: absolute;
   background-image: url(img/photo.png);
-  top: 218px;
+  top: 225px;
   margin-left: 50px;
 }
 
@@ -63,14 +64,13 @@ body{
 #contingut #cap h2{
   position: relative;
   top: 50px;
-  left: -85px;
+  left: -25px;
   color: white;
   font-family: sans-serif;
   font-size: 20px;
 }
 
-li{
-  margin: 0 0 0 1px;
+#menu li{
   float: left;
   list-style-type: none;
   background-color: white;
@@ -81,36 +81,70 @@ li{
   text-align: center;
   vertical-align: middle;
   line-height: 43px;
+  box-shadow: 1px 0 1px #CCC;
 }
 
 #principal{
-  height: 1504px;
+  height: 1604px;
   margin-top: 43px;
 }
 
-aside{
+#seccions{
   width: 322px;
   float: left;
+  overflow: hidden;
+  list-style: none;
+  margin-top: -30px;
 }
 
 .esquerra {
   background-color: white;
   border-radius: 3px;
   border: solid 1px #DDD;
-  height: 200px;
+  height: auto;
   width: 322px;
-  margin-top: 56px;
+  margin-bottom: 30px;
   float: left;
   clear: left;
+  padding: 5px;
 }
 
-#fotos{
-  background-color: red;
+.esquerra ul{
+  list-style: none;
 }
 
 .dreta{
-  height: 100px;
+  width: 515px;
+  margin-bottom: 50px;
   background-color: white;
   border-radius: 3px;
   border: solid 1px #DDD;
+  float: right;
+  height: 180px;
+  margin-top: -30px;
+}
+
+#seccions h3{
+  background-image: url(img/lateral.png);
+  background-repeat: no-repeat;
+  text-indent: 33px;
+  height: 24px;
+}
+
+#presentacio p{
+  border-bottom: solid 1px;
+  box-shadow: 0 1px 0 #DDD;
+  padding: 10px;
+}
+
+#presentacio h3{
+  background-position: 0 0;
+}
+
+#amistats h3{
+  background-position: 0 -48px;
+}
+
+#fotos h3{
+  background-position: 0 -24px;
 }
