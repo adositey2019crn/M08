@@ -1,0 +1,139 @@
+body{
+  background-color: #222;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+#barra{
+  height: 43px;
+  background-color: black;
+  opacity: 50%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#logo{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+p{
+  display: inline;
+  color: #CCC;
+  margin-right: 5px;
+}
+
+p:hover{
+  color: #FFF;
+}
+
+.right{
+  float: right;
+}
+
+h2{
+  color: white;
+  margin-left: 20px;
+}
+
+#contingut{
+  height: 5000px;
+}
+
+#docu_interesants{
+  margin-left: 20px;
+  height: 600px;
+}
+
+.docus1{
+  width: 175px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.docus1:hover{
+  opacity: 0.5;
+}
+
+.docus2:hover{
+  opacity: 0.5;
+}
+
+.peli_p:hover{
+  opacity: 0.5;
+}
+
+#docu_interesants img{
+  border-radius: 5px;
+}
+
+#titol{
+  font-size: 14px;
+  color: #CCC;
+}
+
+#data{
+  font-size: 11px;
+  color: #CCC;
+  margin-top: 9px;
+}
+
+#seccio{
+  font-size: 11px;
+  color: #CCC;
+  float: right;
+  margin-top: 3px;
+  margin-bottom: -3px;
+}
+
+#docu_vistos{
+  margin-left: 20px;
+}
+
+.docus2{
+  width: 175px;
+  display: inline-block;
+  margin-right: 20px;
+  filter: grayscale(100%);
+  border-radius: 5px;
+}
+
+.docus2 img{
+  border-radius: 5px;
+}
+
+#pelis_pendents{
+  margin-left: 20px;
+}
+
+.peli_p{
+  width: 175px;
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.peli_p img{
+  border-radius: 5px;
+}
+
+#pelis_vistes{
+  margin-left: 20px;
+}
+
+.peli_v{
+  width: 175px;
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 5px;
+  filter: grayscale(100%);
+}
+
+.peli_v img{
+  border-radius: 5px;
+}
