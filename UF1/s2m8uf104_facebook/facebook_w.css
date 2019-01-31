@@ -80,7 +80,11 @@ body{
   text-align: center;
   vertical-align: middle;
   line-height: 43px;
-  box-shadow: 1px 0 1px #CCC;
+  box-shadow: 0 0 1px #CCC;
+}
+
+#menu li:hover{
+  background-color: #f5f5f7;
 }
 
 #principal{
@@ -214,7 +218,8 @@ body{
 #fotos li{
   width: 96px;
   height: 96px;
-  background-color: yellow;
+  background-image: url(img/brick.jpg);
+  background-size: cover;
   margin: 2px;
   float: left;
   color: white;
@@ -304,6 +309,19 @@ body{
   margin: 0 0 0 1px;
   font-size: 8pt;
   background-color: #f5f5f7;
+  box-shadow: 0 0 3px #DDD;
+  display: inline-block;
+  text-indent: 10px;
+}
+
+#crear li:hover{
+  opacity: 0.5;
+}
+
+#publica_acontencimiento{
+  background-image: url(img/icones.png);
+  background-repeat: no-repeat;
+  background-position: 0 10px;
 }
 
 #pensament{
@@ -311,7 +329,7 @@ body{
   clear: left;
   padding: 12px;
   position: relative;
-  height: 73px;
+  height: 50px;
   width: 516px;
   left: 50px;
   font-size: 1.1em;
@@ -329,14 +347,50 @@ body{
   z-index: 100;
   float: left;
   clear: left;
-  margin-top: 55px;
+  margin-top: 40px;
 }
 
 #botonera_estat{
   height: 38px;
   width: 516px;
+}
+
+#botonera_estat li{
+  height: 38px;
   padding: 0;
-  margin-top: 0px;
-  background-color: yellow;
-  margin-left: -12px;
+  float: left;
+  margin-right: 40px;
+  margin-top: -5px;
+  background-color: #f5f5f7;
+  position: relative;
+  list-style-type: none;
+  border-radius: 20px;
+  line-height: 38px;
+  text-indent: 25px;
+  margin-left: -25px;
+}
+
+#botonera_estat li:hover{
+  opacity: 0.5;
+}
+
+#estat_fotovideo{
+  background-image: url(img/pensa.png);
+  background-repeat: no-repeat;
+  background-position: 3px -60px;
+  width: 120px;
+}
+
+#estat_etiquetar{
+  background-image: url(img/pensa.png);
+  background-repeat: no-repeat;
+  background-position: 3px 7px;
+  width: 118px;
+}
+
+#estat_sentimiento{
+  background-image: url(img/pensa.png);
+  background-repeat: no-repeat;
+  background-position: 0px -26px;
+  width: 120px;
 }
