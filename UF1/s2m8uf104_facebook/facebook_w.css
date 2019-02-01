@@ -11,7 +11,7 @@ body{
   position: sticky;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0;*
 }
 
 #contingut{
@@ -124,7 +124,7 @@ body{
   border: solid 1px #DDD;
   float: right;
   height: 180px;
-  margin-top: -27px;
+  margin-top: -30px;
 }
 
 #seccions h3{
@@ -322,6 +322,19 @@ body{
   background-image: url(img/icones.png);
   background-repeat: no-repeat;
   background-position: 0 10px;
+  color: blue;
+}
+
+#publica{
+
+}
+
+#publica_foto{
+  color: blue;
+}
+
+#publica_video{
+  color: blue;
 }
 
 #pensament{
@@ -330,7 +343,7 @@ body{
   padding: 12px;
   position: relative;
   height: 50px;
-  width: 516px;
+  width: 400px;
   left: 50px;
   font-size: 1.1em;
   border: 0;
@@ -393,4 +406,44 @@ body{
   background-repeat: no-repeat;
   background-position: 0px -26px;
   width: 120px;
+}
+
+#entrada1{
+  margin-top: -1400px;
+  height: 200px;
+}
+
+#comentari{
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.likes li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 12pt;
+  text-indent: 28px;
+  height: 25px;
+  line-height: 25px;
+}
+
+#magrada{
+  background-image: url(img/likes.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+
+#comenta{
+  background-image: url(img/likes.png);
+  background-repeat: no-repeat;
+  background-position: 0px -105px;
+}
+
+#compartir{
+  background-image: url(img/likes.png);
+  background-repeat: no-repeat;
+  background-position: 0px -53px;
 }
