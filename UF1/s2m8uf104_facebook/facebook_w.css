@@ -532,7 +532,7 @@ body{
     width: 162px;
     background-repeat: no-repeat;
     list-style-type: none;
-    margin-top: 200px;
+    margin-top: 170px;
   }
 
 
@@ -562,7 +562,7 @@ body{
   }
 
   #principal{
-    margin-top: 300px;
+    margin-top: 380px;
   }
 
   #seccions{
@@ -580,11 +580,15 @@ body{
   #ies li{
     margin: 0 auto;
     width: 60%;
-    background-color: red;
   }
 
   .dreta{
-
+    padding: 12px;
+    width: 100%;
+    float: none;
+    clear: none;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px grey;
   }
 
   #seccions h3{
@@ -597,11 +601,8 @@ body{
   }
 
   #presentacio h3{
-
-  }
-
-  #amistats li{
-
+    text-indent: 35px;
+    margin-top: -120px;
   }
 
   #MM{
@@ -657,11 +658,19 @@ body{
   }
 
   #fotos ul{
+    display: none;
+  }
 
+  #amistats li{
+    display: none;
+  }
+
+  #amistats #fotos{
+    display: none;
   }
 
   #amistats ul{
-
+    display: none;
   }
 
   #amistats li a:link{
@@ -669,15 +678,15 @@ body{
   }
 
   #amistats h3{
-
+    display: none;
   }
 
   #fotos h3{
-
+    display: none;
   }
 
   #surprise h3{
-
+    text-indent: 35px;
   }
 
   #presentacio .estudis{
@@ -697,32 +706,54 @@ body{
   }
 
   #estat #crear {
-
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
   }
 
   #crear{
-
+    height: 38px;
+    width: 516px;
+    padding: 12px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #f5f5f7;
+    left: -12px;
   }
 
   #estat{
-
+    overflow: hidden;
+    width: 492px;
+    padding: 0 12px;
+    position: relative;
   }
 
   #crear li{
-
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+    line-height: 40px;
+    height: 50px;
+    margin: 0 0 0 1px;
+    font-size: 8pt;
+    background-color: #f5f5f7;
+    box-shadow: 0 0 3px #DDD;
+    display: inline-block;
+    text-indent: 10px;
   }
 
   #crear li:hover{
-
+    opacity: 0.5;
   }
 
   #publica_acontencimiento{
     background-image: url(img/icones.png);
+    background-repeat: no-repeat;
+    background-position: 0 10px;
     color: blue;
-  }
-
-  #publica{
-
   }
 
   #publica_foto{
@@ -734,86 +765,159 @@ body{
   }
 
   #pensament{
-
+    display: block;
+    clear: left;
+    padding: 12px;
+    position: relative;
+    height: 50px;
+    width: 400px;
+    left: 50px;
+    font-size: 1.1em;
+    border: 0;
   }
 
   #mini_me{
-
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-radius: 100%;
+    margin-left: 12px;
+    position: absolute;
+    top: 20px;
+    z-index: 100;
+    float: left;
+    clear: left;
+    margin-top: 40px;
   }
 
   #botonera_estat{
-
+    height: 38px;
+    width: 516px;
   }
 
   #botonera_estat li{
-
+    height: 38px;
+    padding: 0;
+    float: left;
+    margin-right: 40px;
+    margin-top: -5px;
+    background-color: #f5f5f7;
+    position: relative;
+    list-style-type: none;
+    border-radius: 20px;
+    line-height: 38px;
+    text-indent: 25px;
+    margin-left: -25px;
   }
 
   #botonera_estat li:hover{
-
+    opacity: 0.5;
   }
 
   #estat_fotovideo{
     background-image: url(img/pensa.png);
+    background-repeat: no-repeat;
+    background-position: 3px -60px;
+    width: 120px;
   }
 
   #estat_etiquetar{
     background-image: url(img/pensa.png);
+    background-repeat: no-repeat;
+    background-position: 3px 7px;
+    width: 118px;
   }
 
   #estat_sentimiento{
     background-image: url(img/pensa.png);
+    background-repeat: no-repeat;
+    background-position: 0px -26px;
+    width: 120px;
   }
 
   #entrada1{
-
+    width: 100%;
+    margin-top: -1400px;
+    height: 225px;
   }
 
   #comentari{
-
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 22px;
+    position: relative;
   }
 
   .likes li{
-
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 12pt;
+    text-indent: 28px;
+    height: 25px;
+    line-height: 25px;
   }
 
   #magrada{
     background-image: url(img/likes.png);
-
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
   }
 
   #comenta{
     background-image: url(img/likes.png);
-
+    background-repeat: no-repeat;
+    background-position: 0px -105px;
   }
 
   #compartir{
     background-image: url(img/likes.png);
-
+    background-repeat: no-repeat;
+    background-position: 0px -53px;
   }
 
   #noms{
-
+    color:blue;
+    display: block;
+    margin-left: 70px;
+    margin-top: 1350px;
   }
 
   #diamesany{
-
+    font-size: 0.75em;
+    margin-left: 70px;
+    margin-top: -0.5px;
   }
 
   #entrada1 p{
-
+    margin-left: 22px;
   }
 
   #entrada1 h6{
-
+    margin-left: 22px;
+    font-size: 9px;
   }
 
   #coment{
-
+    display: block;
+    position: relative;
+    height: 35px;
+    width: 400px;
+    left: 15px;
+    font-size: 1em;
+    border-radius: 20px;
+    border: 0;
+    background-color: #f5f5f7;
+    text-indent: 15px;
+    margin-right: 20px;
   }
 
   #coment_foto{
-
+    float:left;
+    width: 33px;
+    height: 33px;
+    margin-left: 22px;
   }
 
 
