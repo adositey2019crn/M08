@@ -1,3 +1,7 @@
+/*Versió Escriptoti*/
+
+@media only screen and (min-width: 960px){
+
 body{
   margin: 0;
   padding: 0;
@@ -410,14 +414,15 @@ body{
 
 #entrada1{
   margin-top: -1400px;
-  height: 200px;
+  height: 225px;
 }
 
 #comentari{
   height: 40px;
   width: 40px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 15px;
+  margin-left: 22px;
+  position: relative;
 }
 
 .likes li{
@@ -446,4 +451,369 @@ body{
   background-image: url(img/likes.png);
   background-repeat: no-repeat;
   background-position: 0px -53px;
+}
+
+#noms{
+  color:blue;
+  display: block;
+  margin-left: 70px;
+  margin-top: -40px;
+}
+
+#diamesany{
+  font-size: 0.75em;
+  margin-left: 70px;
+  margin-top: -0.5px;
+}
+
+#entrada1 p{
+  margin-left: 22px;
+}
+
+#entrada1 h6{
+  margin-left: 22px;
+  font-size: 9px;
+}
+
+#coment{
+  display: block;
+  position: relative;
+  height: 35px;
+  width: 400px;
+  left: 15px;
+  font-size: 1em;
+  border-radius: 20px;
+  border: 0;
+  background-color: #f5f5f7;
+  text-indent: 15px;
+  margin-right: 20px;
+}
+
+#coment_foto{
+  float:left;
+  width: 33px;
+  height: 33px;
+  margin-left: 22px;
+}
+
+}
+
+/* Versió Mobil*/
+
+@media only screen and (max-width: 959px){
+
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Lucida Grande', tahoma, Segoe UI, San Francisco, Roboto;
+  }
+
+  #barra{
+
+  }
+
+  #contingut{
+
+  }
+
+  #contingut #cap{
+    background-image: url(img/backg.png);
+    height: 254px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  #contingut #cap img{
+    height: 162px;
+    width: 162px;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    margin-top: 200px;
+  }
+
+
+
+  #fotoperfil{
+
+  }
+
+  #vacio{
+
+  }
+
+  #contingut #menu{
+
+  }
+
+  #contingut #cap h2{
+
+  }
+
+  #menu li{
+    list-style-type: none;
+  }
+
+  #menu li:hover{
+
+  }
+
+  #principal{
+    margin-top: 300px;
+  }
+
+  #seccions{
+
+  }
+
+  .esquerra {
+
+  }
+
+ .esquerra ul{
+
+  }
+
+  #ies li{
+    margin: 0 auto;
+    width: 60%;
+    background-color: red;
+  }
+
+  .dreta{
+
+  }
+
+  #seccions h3{
+    background-image: url(img/lateral.png);
+    background-repeat: no-repeat;
+  }
+
+  #presentacio p{
+
+  }
+
+  #presentacio h3{
+
+  }
+
+  #amistats li{
+
+  }
+
+  #MM{
+    background-image: url(https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg);
+  }
+
+  #AC{
+    background-image: url(https://acarranco2019crn.github.io/m08/s2m8uf0104carranco/img/profile.jpg);
+  }
+
+  #SP{
+    background-image: url(https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg);
+  }
+
+  #NC{
+    background-image: url(https://nchia2019crn.github.io/M08/s2m8uf104_chia/img/perfil.jpg);
+  }
+
+  #OP{
+    background-image: url(https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png);
+  }
+
+  #YR{
+    background-image: url(https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg);
+  }
+
+  #AG{
+    background-image: url(https://agarcia2019crn.github.io/M08/s2m8uf104_garciaa/img/perfil.jpg);
+  }
+
+  #GB{
+    background-image: url(https://gbonsoms2019crn.github.io/M08/s2m8uf104_facebook/img/pajaro.jpg);
+  }
+
+  #VH{
+    background-image: url(https://vherrero2019crn.github.io/M08/s2m8uf104facebook/img/perfil.png);
+  }
+
+  #SF{
+    background-image: url(https://sfernandez2019crn.github.io/M08/s2m8uf104_fernandez/img/gos.png);
+  }
+
+  #SG{
+    background-image: url(https://sgarzon2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg);
+  }
+
+  #NP{
+    background-image: url(https://iprados2019crn.github.io/M08/s2m8uf104_iprados/img/fotoperfil.jpg);
+  }
+
+  #fotos li{
+    background-image: url(img/brick.jpg);
+  }
+
+  #fotos ul{
+
+  }
+
+  #amistats ul{
+
+  }
+
+  #amistats li a:link{
+
+  }
+
+  #amistats h3{
+
+  }
+
+  #fotos h3{
+
+  }
+
+  #surprise h3{
+
+  }
+
+  #presentacio .estudis{
+    list-style-image: url(iconetes/icones_estudis.png);
+  }
+
+  #presentacio .casa{
+    list-style-image: url(iconetes/icones_domicili.png);
+  }
+
+  #presentacio .ciudad{
+    list-style-image: url(iconetes/icones_ubicacio.png);
+  }
+
+  #presentacio .estado{
+    list-style-image: url(iconetes/icones_sentimental.png);
+  }
+
+  #estat #crear {
+
+  }
+
+  #crear{
+
+  }
+
+  #estat{
+
+  }
+
+  #crear li{
+
+  }
+
+  #crear li:hover{
+
+  }
+
+  #publica_acontencimiento{
+    background-image: url(img/icones.png);
+    color: blue;
+  }
+
+  #publica{
+
+  }
+
+  #publica_foto{
+    color: blue;
+  }
+
+  #publica_video{
+    color: blue;
+  }
+
+  #pensament{
+
+  }
+
+  #mini_me{
+
+  }
+
+  #botonera_estat{
+
+  }
+
+  #botonera_estat li{
+
+  }
+
+  #botonera_estat li:hover{
+
+  }
+
+  #estat_fotovideo{
+    background-image: url(img/pensa.png);
+  }
+
+  #estat_etiquetar{
+    background-image: url(img/pensa.png);
+  }
+
+  #estat_sentimiento{
+    background-image: url(img/pensa.png);
+  }
+
+  #entrada1{
+
+  }
+
+  #comentari{
+
+  }
+
+  .likes li{
+
+  }
+
+  #magrada{
+    background-image: url(img/likes.png);
+
+  }
+
+  #comenta{
+    background-image: url(img/likes.png);
+
+  }
+
+  #compartir{
+    background-image: url(img/likes.png);
+
+  }
+
+  #noms{
+
+  }
+
+  #diamesany{
+
+  }
+
+  #entrada1 p{
+
+  }
+
+  #entrada1 h6{
+
+  }
+
+  #coment{
+
+  }
+
+  #coment_foto{
+
+  }
+
+
 }

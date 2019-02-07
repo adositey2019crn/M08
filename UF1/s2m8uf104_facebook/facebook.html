@@ -3,20 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>I Stay Flexing</title>
-    <link rel="stylesheet" type="text/css" href="facebook_w.css">
+    <link rel="stylesheet" type="text/css" href="facebook_w.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="facebook_p.css" media="print">
   </head>
   <body>
     <div id="barra">
     </div>
 
     <div id="contingut">
-        <div id="fotoperfil">
-          <img src="img/photo.png" />
-        </div>
         <div id="cap">
           <div id="vacio">
           </div>
           <div id="menu">
+            <div id="fotoperfil">
+              <img src="img/photo.png" />
+            </div>
             <h2>Augustine Dositey</h2>
 
             <ul>
@@ -39,7 +40,7 @@
                 Slim Shady
                 Can I get the attention of the class (huh my name is, what my name is)
                 For one second My name is (My name is Slim Shady)</p>
-            <ul>
+            <ul id="ies">
               <li class="estudis">Va estudiar a IES Esteve Terrades</li>
               <li class="casa">Viu a Barcelona</li>
               <li class="ciudad">De Barcelona</li>
@@ -114,7 +115,7 @@
 
           <div class="dreta" id="entrada1">
             <img id=comentari src="img/photo.png"/>
-              <span style="color: blue;">Oriol Paricio Jordi Mora</span>
+              <span id="noms">Oriol Paricio > Jordi Mora</span>
                 <h5 id="diamesany">31 de gener de 2019</h5>
                   <p>I’d shoot for the moon but I’m too busy gazing at stars.</p>
                     <h6>A la Princeso li agrada</h6>
@@ -123,7 +124,9 @@
                         <li id="comenta">Comentar</li>
                         <li id="compartir">Compartir</li>
                       </ul>
-
+                <img id=coment_foto src="img/photo.png"/>
+            <input id="coment" type="test" placeholder="Escribe un comentario...">
+            </input>
           </div>
 
           <div class="dreta">
