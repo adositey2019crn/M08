@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Albums</title>
+    <style>
+      body{
+        background-color: black;
+      }
+
+      @media only screen and (max-width:640px) {
+        #contingut{
+            height: 600px;
+            width: 100%;
+            background-color: black;
+            margin: 0 auto;
+            border-radius: 5px;
+          }
+
+        h1{
+          color: white;
+          font-size: 45px;
+          font-family: Lota Grotesque, helvetica, sans-serif;
+        }
+
+        .album{
+          width: 180px;
+          height: 180px;
+          background-color: red;
+          display: inline-block;
+          border-radius: 5px;
+          margin: 8px;
+          opacity: 1;
+          cursor: pointer;
+          border: 1px white solid;
+        }
+
+        .album:hover{
+          opacity: 0.6;
+        }
+
+        #one{
+          background-image: url(img/1.jpg);
+          background-position: center;
+        }
+
+        #two{
+          background-image: url(img/2.jpg);
+          background-position: center;
+        }
+
+        #three{
+          background-image: url(img/3.jpg);
+          background-position: center;
+        }
+
+        #four{
+          background-image: url(img/4.jpg);
+          background-position: center;
+        }
+
+        #five{
+          background-image: url(img/5.png);
+          background-position: center;
+        }
+
+        #six{
+          background-image: url(img/6.jpg);
+          background-position: center;
+        }
+
+        #seven{
+          background-image: url(img/7.jpg);
+          background-position: center;
+        }
+
+        #eight{
+          background-image: url(img/8.jpg);
+          background-position: center;
+        }
+
+        #nine{
+          background-image: url(img/9.jpg);
+          background-position: center;
+        }
+
+        .search-container {
+          float: right;
+          margin-top: -80px;
+          margin-right: 20px;
+        }
+
+        input[type=text] {
+          padding: 6px;
+          margin-top: 8px;
+          font-size: 17px;
+          border: none;
+        }
+
+        #buscar{
+          width: 25px;
+          height: auto;
+          float: right;
+          margin-left: 5px;
+          margin-top: 11px;
+          cursor: pointer;
+        }
+
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Albums</h1>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Buscar.." name="search">
+          <img id="buscar" src="img/search.png">
+        </form>
+      </div>
+
+    <div id="contingut">
+      <div class="album" id="one"></div>
+      <div class="album" id="two"></div>
+      <div class="album" id="three"></div>
+      <div class="album" id="four"></div>
+      <div class="album" id="five"></div>
+      <div class="album" id="six"></div>
+      <div class="album" id="seven"></div>
+      <div class="album" id="eight"></div>
+      <div class="album" id="nine"></div>
+    </div>
+
+  </body>
+</html>
