@@ -1,0 +1,142 @@
+body{
+  margin: 0 auto;
+  font-family: Lota Grotesque, helvetica, sans-serif;
+  background: black;
+}
+
+#contenidor{
+  width: 50%;
+  height: 941px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.generos{
+  background: white;
+  color: white;
+  height: 90px;
+  width: 48%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 2.5cm;
+  cursor: pointer;
+}
+
+#titol{
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+}
+
+#rap{
+  background-image: url(../img/rap.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#rap:hover{
+  opacity: 1;
+}
+
+#blues{
+  background-image: url(../img/blues.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#blues:hover{
+  opacity: 1;
+}
+
+#Gospel{
+  background-image: url(../img/gospel.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#Gospel:hover{
+  opacity: 1;
+}
+
+#Rab{
+  background-image: url(../img/R_B.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#Rab:hover{
+  opacity: 1;
+}
+
+#Funk{
+  background-image: url(../img/funk.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#Funk:hover{
+  opacity: 1;
+}
+
+#Jazz{
+  background-image: url(../img/jazz.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#Jazz:hover{
+  opacity: 1;
+}
+
+#Country{
+  background-image: url(../img/country.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#Country:hover{
+  opacity: 1;
+}
+
+#Rock{
+  background-image: url(../img/R_R.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#Rock:hover{
+  opacity: 1;
+}
+
+
+@media only screen and (max-width:640px) {
+  #contenidor{
+    width: 50%;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+  }
+
+  .generos{
+    background: white;
+    color: white;
+    height: 90px;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 2.5cm;
+    cursor: pointer;
+  }
+
+  #titol{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+
+}

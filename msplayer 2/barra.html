@@ -4,199 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="estils/musix.css">
     <title>Document</title>
-      <style>
-        body {
-          background: grey;
-          width: 400px;
-          margin: 0 auto;
-        }
-
-        #contingut{
-          background-color: #001011;
-          height: 600px;
-          margin-top: 50px;
-          position: relative;
-        }
-
-        #white{
-          width: 400px;
-          height: 350px;
-          background-color: white;
-          position: relative;
-        }
-
-        .cover{
-          background-image: url(img/tory.jpg);
-          width: 200px;
-          height: 200px;
-          background-size: cover;
-          position: absolute;
-          top: 190px;
-          left: 100px;
-        }
-
-        #controls{
-          top: 60px;
-          position: relative;
-        }
-
-      /* --------------- Tiradors ----------------- */
-
-      input[type=range] {
-        -webkit-appearance: none; /* Amaga el tirador per fer la màgia */
-        width: 90%; /* Firefox necessita una amplada específica */
-        background: transparent;  /* Amaga el tirador per fer la màgia */
-        background: black;
-        margin: 0.0px 0;
-        border-radius: 10px;
-        margin: 20px auto;
-        margin-left: 20px;
-        top: 70px;
-      }
-      input[type=range]:focus {
-        outline: none; /* Per no veure el contorn */
-      }
-
-      input[type=range]::-webkit-slider-runnable-track {
-        width: 20px;
-        height: 5px;
-        cursor: pointer;
-        /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; */
-        background: white;
-        border-radius: 10px;
-        border: 0px solid #010101;
-      }
-
-      /* Controlador */
-      input[type=range]::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        height: 15px;
-        width: 15px;
-        border-radius: 10px;
-        background: white;
-        cursor: pointer;
-        margin-top: -6px;
-        box-shadow: 0px 0px 1px #670000, 0px 0px 0px #810000;
-        border: 0px solid #ff1e00;
-      }
-
-      input[type=range]:focus::-webkit-slider-runnable-track {
-        background: #F5E2C8;
-        border-radius: 10px;
-      }
-
-      /* --------------- Botons ----------------- */
-
-      #playpause {
-        position:relative;
-        border:none;
-        text-decoration:none;
-        width: 60px;
-        height: 60px;
-        background: transparent;
-        border: solid 2px white;
-        border-radius: 50px;
-      }
-
-      #playpause:focus {
-        outline: none; /* Per no veure el contorn */
-      }
-      #playpause:before, #playpause:after, #playpause:focus:before, #playpause:focus:after {
-        position: absolute;
-        content: " ";
-        z-index: 1000;
-      }
-
-      #playpause:before, #playpause:after {
-        height: 30px;
-        width: 12px;
-        left: 14px;
-        top: 15px;
-        display: block;
-        background: white;
-      }
-
-      #playpause:after {
-       left: 32px;
-      }
-
-      #playpause:focus:before {
-        top: 15px;
-        left: 14px;
-        width: 0;
-        height: 0;
-        border-left: 35px solid white;
-        border-right: 14px solid transparent;
-        border-bottom: 14px solid transparent;
-        border-top: 15px solid transparent;
-        display: block;
-        background: transparent;
-      }
-
-      #playpause:focus:after {
-       visibility:hidden;
-      }
-
-        .buttons{
-          margin-left: 31%;
-          margin-top: 10px;
-        }
-
-        .back{
-          background-image: url(img/fwd.png);
-          background-size: cover;
-          background-color: #001011;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          height: 40px;
-          width: 40px;d
-          margin-top: 20px;
-          margin-right: 10px;
-        }
-
-        .fwd{
-          background-image: url(img/bck.png);
-          background-size: cover;
-          background-color: #001011;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          height: 40px;
-          width: 40px;
-          margin-top: 20px;
-          margin-left: 10px;
-        }
-
-        #enmudir:hover{
-          opacity: 0.5;
-        }
-
-        .audio{
-          background-image: url(img/mute.png);
-          height: 30px;
-          background-size: cover;
-          background-color: #001011;
-          border: none;
-          width: 30px;
-          margin-left: 55px;
-          outline: none;
-        }
-
-        .audio:focus{
-          background-image: url(img/unmute.png);
-          opacity: 0.5;
-        }
-
-
-
-    </style>
 
     <script>
         var reproduint, playpause, controlador, muteunmute;
         var vesa, noutemps;
         var enmudir;
+
+        var song = new Audio();
+        var currentSong = 0;
 
         function inicialitzaReproductor() {
           reproduint = document.getElementById("reproduint");
@@ -211,7 +28,6 @@
         }
 
         window.onload = inicialitzaReproductor;
-
 
         function playPause() {
           if(reproduint.paused) {
