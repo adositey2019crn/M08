@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="estils/musix.css">
+    <title>Document</title>
+
+    <script>
+        var reproduint, playpause, controlador, muteunmute;
+        var vesa, noutemps;
+        var enmudir;
+
+        var song = new Audio();
+        var currentSong = 0;
+
+        function inicialitzaReproductor() {
+          reproduint = document.getElementById("reproduint");
+          playpause = document.getElementById("playpause");
+          controlador = document.getElementById("controlador");
+          enmudir = document.getElementById('enmudir');
+
+          playpause.addEventListener("click", playPause, false);
+          controlador.addEventListener("change", posicioAudio, false);
+          reproduint.addEventListener("timeupdate", actualitzaTemps, false);
+          enmudir.addEventListener("click", enmudeix, false);
+        }
+
+        window.onload = inicialitzaReproductor;
+
+        function playPause() {
+          if(reproduint.paused) {
+            reproduint.play();
+            playpause.blur();
+          }
+          else {
+            reproduint.pause();
+            playpause.focus();
+          }
+        }
+
+        function enmudeix() {
+          if(reproduint.muted) {
+            reproduint.muted=false;
+            enmudir.blur();
+          }
+          else {
+            reproduint.muted=true;
+            enmudir.focus();
+          }
+        }
+
+        function posicioAudio() {
+          var vesa = parseInt(reproduint.duration * (controlador.value / 1000));
+          reproduint.currentTime = vesa;
+          console.log(reproduint.currentTime);
+        }
+
+        function actualitzaTemps() {
+          var noutemps = parseInt(reproduint.currentTime * (1000 / reproduint.duration));
+          controlador.value = noutemps;
+          console.log(controlador.value);
+        }
+
+
+    </script>
+
+  </head>
+  <body>
+    <div id="contingut">
+      <div id="white">
+        <div class="cover">
+        </div>
+    </div>
+      <div id="controls">
+        <div class="carril">
+        </div>
+
+        <div class="fake"></div>
+
+        <div class="buttons">
+          <button class="back"></button>
+          <button id="playpause" type="button" class="play"></button>
+          <button class="fwd"></button>
+          <button id="enmudir" class="audio"></button>
+        </div>
+
+        <audio id="reproduint" width="500" height="80px" type="audio/mpeg" autoplay src="tory.mp3"></audio>
+        <input id="controlador" type="range" value="0" max="1000" min="0" step="1"></input>
+      </div>
+    </div>
+  </body>
+</html>
