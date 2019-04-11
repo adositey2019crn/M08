@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="Main.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery-1.10.2.min.js"></script>
+    </head>
+    <body>
+      <div id="contingut">
+
+        <div id="white">
+          <div id="image">
+              <img src="em1.png"/>
+          </div>
+        </div>
+
+      <div id="main">
+
+          <div id="main">
+              <div id="image">
+              </div>
+              <div id="player">
+                  <div id="songTitle">Tory Lanez</div>
+                  <div id="buttons">
+                      <button id="pre" onclick="pre()"><img src="fwd.png" height="90%" width="90%"/></button>
+                      <button id="play" onclick="playOrPauseSong()"><img src="Pause.png"/></button>
+                      <button id="next" onclick="next()"><img src="bck.png" height="90%" width="90%"/></button>
+                  </div>
+
+                  <div id="seek-bar">
+                      <div id="fill"></div>
+                      <div id="handle"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </body>
+    <script type="text/javascript">
+
+        var songs = ["Eminem - Greatest.mp3","Eminem - Patiently waiting.mp3","Tory Lanez - Litty Again.mp3", "Lil Uzi Vert - XO Tour Llif3.mp3"];
+        var poster = ["em1.png", "eminem1.jpg", "tory.jpg", "uzi.jpg"];
+
+        var songTitle = document.getElementById("songTitle");
+        var fillBar = document.getElementById("fill");
+
+        var song = new Audio();
+        var currentSong = 0;
+
+        window.onload = playSong;
+
+        function playSong(){
+
+            song.src = songs[currentSong];
+
+            songTitle.textContent = songs[currentSong];
+
+            song.play();
+        }
+
+        function playOrPauseSong(){
+
+            if(song.paused){
+                song.play();
+                $("#play img").attr("src","Pause.png");
+            }
+            else{
+                song.pause();
+                $("#play img").attr("src","Play.png");
+            }
+        }
+
+        song.addEventListener('timeupdate',function(){
+
+            var position = song.currentTime / song.duration;
+
+            fillBar.style.width = position * 100 +'%';
+        });
+
+
+        function next(){
+
+            currentSong++;
+            if(currentSong > 3){
+                currentSong = 0;
+            }
+            playSong();
+            $("#play img").attr("src","Pause.png");
+            $("#image img").attr("src",poster[currentSong]);
+            $("#bg img").attr("src",poster[currentSong]);
+        }
+
+        function pre(){
+
+            currentSong--;
+            if(currentSong < 0){
+                currentSong = 3;
+            }
+            playSong();
+            $("#play img").attr("src","Pause.png");
+            $("#image img").attr("src",poster[currentSong]);
+            $("#bg img").attr("src",poster[currentSong]);
+        }
+
+    </script>
+
+
+
+</html>
