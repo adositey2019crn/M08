@@ -1,0 +1,53 @@
+@media only screen and (max-width: 645px){
+
+  body{
+    background-color: #173D7A;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  form{
+    margin-top: 70px;
+  }
+
+  .box{
+    height: 45px;
+    width: 250px;
+    background-color: #E63888;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 15px;
+    color: yellow;
+    display: block;
+    outline: none;
+    text-indent: 15px;
+    border: none;
+  }
+
+  ::-webkit-input-placeholder{
+    color: white;
+  }
+
+  #register{
+    height: 40px;
+    width: 120px;
+    background-color: #E63888;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+
+  #register:hover{
+    background-color: white;
+    color: #E63888;
+  }
+
+
+
+}
