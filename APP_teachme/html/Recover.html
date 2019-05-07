@@ -20,16 +20,16 @@
         (document).ready(function()
     {
 
-     ('input').click(function(e){ $(this).focus(); });
+     ('form').click(function(e){ $(this).focus(); });
 
-          ('button').click(function(e)
+          ('input').click(function(e)
           {
               setTimeout(function() {
-                  ('input').trigger('click');
+                  ('form').trigger('click');
               }, 5000)
           })
 
-          ('button').trigger('click');
+          ('input').trigger('click');
     })
 
     </script>
