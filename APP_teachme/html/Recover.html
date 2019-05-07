@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/recover.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <h1>Recupera </br>la teva contrasenya</h1>
+
+    <form>
+      <input class="box" type="text" placeholder="Correu Electrònic"></input>
+    </form>
+    <a href="Roll.html"><div id="recover" type="submit" >Restablir</div></a>
+    <p>Inicia Sessió</p>
+
+    <script>
+        (document).ready(function()
+    {
+
+     ('input').click(function(e){ $(this).focus(); });
+
+          ('button').click(function(e)
+          {
+              setTimeout(function() {
+                  ('input').trigger('click');
+              }, 5000)
+          })
+
+          ('button').trigger('click');
+    })
+
+    </script>
+
+  </body>
+</html>

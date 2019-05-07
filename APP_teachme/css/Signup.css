@@ -1,0 +1,65 @@
+@media only screen and (max-width: 645px){
+
+  body{
+    background-color: #173D7A;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  form{
+    margin-top: 50px;
+  }
+
+  .box{
+    height: 45px;
+    width: 250px;
+    background-color: ;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 15px;
+    color: yellow;
+    display: block;
+    outline: none;
+    text-indent: 1px;
+    border: none;
+    border-bottom: 2px solid #E63888;
+    background: transparent;
+  }
+
+  ::-webkit-input-placeholder{
+    color: darkgrey;
+  }
+
+  #register{
+    height: 40px;
+    width: 150px;
+    background-color: #E63888;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+
+  #register:hover{
+    background-color: white;
+    color: #E63888;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+}
