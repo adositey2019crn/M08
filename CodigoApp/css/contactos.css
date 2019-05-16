@@ -9,17 +9,27 @@
   #barra{
     height: 60px;
     width: 100%;
-    background-color: #E63888;
+    background-color: #FF2C9C;
   }
 
-  #contingut{
-    margin-top: 0px;
+  #atras{
+    position: absolute;
+    width: 20px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 20px;
   }
 
   h1{
     padding: 0;
     text-align: center;
     line-height: 60px;
+    margin-top: 0px;
+    color: white;
+    font-size: 25px;
+  }
+
+  #contingut{
     margin-top: 0px;
   }
 
@@ -45,12 +55,14 @@
     padding: 0;
     margin-left: 75px;
     margin-top: 13px;
+    color: #173D7A;
   }
 
   p{
     margin: 0;
     padding: 0;
     margin-left: 75px;
+    color: black;
   }
 
   #online{
@@ -64,7 +76,7 @@
     padding: 0;
   }
 
-  img{
+  #contingut img{
     float: left;
     height: 50px;
     width: 50px;
@@ -72,6 +84,10 @@
     margin-top: 10px;
     margin-left: 10px;
     border: 1px solid grey;
+  }
+
+  a{
+    text-decoration: none;
   }
 
 
