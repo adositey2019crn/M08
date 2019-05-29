@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/recover.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/teachme2.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+    <link rel="icon" sizes="192x192" href="../img/icon.png">
+    <link rel="icon" sizes="512x512" href="../img/icon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="../img/icon.png">
+    <title>Teachme | Recuperació</title>
+  </head>
+  <body id="restore">
+    <h1 id="recupera">Recupera </br>la teva contrasenya</h1>
+
+    <form>
+      <input class="caixa" type="text" placeholder="Correu Electrònic"></input>
+    </form>
+    <div id="restaura">
+    <a href="confirmacio.html"><div id="recover" type="submit" >Restablir</div></a>
+    </div>
+
+
+    <script>
+        (document).ready(function()
+    {
+
+     ('form').click(function(e){ $(this).focus(); });
+
+          ('input').click(function(e)
+          {
+              setTimeout(function() {
+                  ('form').trigger('click');
+              }, 5000)
+          })
+
+          ('input').trigger('click');
+    })
+
+    </script>
+
+  </body>
+</html>

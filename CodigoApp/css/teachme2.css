@@ -1,0 +1,617 @@
+@media only screen and (min-width: 640px){
+
+
+  /*****************************roll***************************************/
+
+
+
+    #roll{
+      background-color: #173D7A;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    #alumno{
+      width: 400px;
+      height: 50px;
+      background-color: #E63888;
+      margin: 0 auto;
+      margin-top: 350px;
+      text-align: center;
+      border-radius: 35px;
+      line-height: 53px;
+      font-size: 25px;
+      text-decoration: none;
+    }
+
+    #alumno:hover{
+      background-color: white;
+      color: #E63888;
+      cursor: pointer;
+      outline: none;
+    }
+
+    #profe{
+      margin-top: 50px;
+      width: 400px;
+      height: 50px;
+      background-color: #E63888;
+      margin: 0 auto;
+      margin-top: 40px;
+      text-align: center;
+      border-radius: 35px;
+      line-height: 53px;
+      font-size: 25px;
+      text-decoration: none;
+    }
+
+    #profe:hover{
+      background-color: white;
+      color: #E63888;
+      cursor: pointer;
+      outline: none;
+    }
+
+    #roll h1{
+      color: white;
+      margin-top: 100px;
+      text-align: center;
+      font-size: 45px;
+    }
+
+    #roll a{
+      text-decoration: none;
+      cursor: pointer;
+      color: white;
+    }
+
+
+
+/*****************************signup***************************************/
+
+#signup{
+  background-color: red;
+  margin: 0;
+  padding: 0;
+  background-color: #173D7A;
+  font-family: 'Nunito', sans-serif;
+}
+
+#signup h1{
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+
+#signup form{
+  margin-top: 60px;
+}
+
+#signup .box{
+  height: 60px;
+  width: 520px;
+  background-color: ;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-size: 20px;
+  color: white;
+  display: block;
+  outline: none;
+  text-indent: 1px;
+  border: none;
+  border-bottom: 2px solid #E63888;
+  background: transparent;
+}
+
+#register{
+  height: 50px;
+  width: 220px;
+  line-height: 50px;
+  border-radius: 26px;
+  text-align: center;
+  text-indent: 58px;
+  font-size: 25px;
+  margin: 0 auto;
+  margin-top: 90px;
+  background-color: #E63888;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  display: flex;
+}
+
+#signup input{
+  display: none;
+}
+
+#register:hover{
+  background-color: white;
+  color: #E63888;
+}
+
+#signup p{
+  font-size: 20px;
+}
+
+@keyframes appear {
+  0%{
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}
+
+#toggle:checked ~ dialog {
+  display: block;
+}
+
+#signup dialog{
+  animation: appear 350ms ease-in 1;
+  width: 450px;
+  border: none;
+  margin-top: -560px;
+}
+
+ #signup .accept{
+  height: 30px;
+  width: 115px;
+  line-height: 30px;
+  border-radius: 20px;
+  background-color: #E63888;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  float: right;
+}
+
+#signup .accept:hover{
+  color: #E63888;
+  background-color: white;
+  border: solid 0.5px #E63888;
+}
+
+#cancela{
+  height: 30px;
+  width: 115px;
+  line-height: 30px;
+  background-color: #E63888;
+  text-align: center;
+  border-radius: 20px;
+  float: left;
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+#cancela:hover{
+  color: #E63888;
+  background-color: white;
+  border: solid 0.5px #E63888;
+}
+
+#signup a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/*****************************recover***************************************/
+
+
+#restore{
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+  background-color: #173D7A;
+}
+
+#restore h1{
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#restore .caixa{
+  margin-left: 40%;
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #E63888;
+  background-color: transparent;
+  font-size: 15px;
+  color: white;
+  margin-top: 50px;
+  outline: none;
+  text-indent: 5px;
+}
+
+#recover{
+  height: 30px;
+  width: 125px;
+  background-color: #E63888;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#recover:hover{
+  background-color: white;
+  color: #E63888;
+}
+
+#restore a{
+  text-decoration: none;
+  color: white;
+}
+
+#restore p{
+  color: white;
+  float: right;
+}
+
+
+
+/*****************************premium***************************************/
+
+
+#premium{
+  margin: 0;
+  padding: 0;
+  background-color: #173D7A;
+  font-family: 'Nunito', sans-serif;
+}
+
+#caja{
+  height: 40px;
+  width: 300px;
+  background: transparent;
+  margin: 0 auto;
+  margin-left: 42%;
+  margin-top: 230px;
+  border-radius: 30px;
+  border: 2px solid white;
+  color: white;
+  outline: none;
+  font-size: 25px;
+  text-indent: 25px;
+}
+
+#codi{
+  color: white;
+  text-align: center;
+  margin-top: 160px;
+  font-size: 45px;
+}
+
+#buton{
+  width: 130px;
+  height: 40px;
+  background-color: #E63888;
+  color: white;
+  line-height: 40px;
+  border-radius: 25px;
+  margin-left: 47%;
+  margin-top: 18px;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 640px){
+
+  body{
+    background-color: #173D7A;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*****************************Rol******************************/
+
+  #alumno{
+    width: 300px;
+    height: 50px;
+    background-color: #E63888;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 35px;
+    line-height: 53px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  #alumno:hover{
+    background-color: white;
+    color: #E63888;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #profe{
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #E63888;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 35px;
+    line-height: 53px;
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  #profe:hover{
+    background-color: white;
+    color: #E63888;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #escull{
+    color: white;
+    margin-top: 160px;
+    text-align: center;
+    font-size: 33px;
+  }
+
+  #botons, a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+  }
+
+
+  /*****************************Signup******************************/
+
+
+  #registrate{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  #formulario{
+    margin-top: 50px;
+  }
+
+  .box{
+    height: 45px;
+    width: 250px;
+    background-color: ;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 15px;
+    color: white;
+    display: block;
+    outline: none;
+    text-indent: 1px;
+    border: none;
+    border-bottom: 2px solid #E63888;
+    background: transparent;
+  }
+
+  ::-webkit-input-placeholder{
+    color: darkgrey;
+  }
+
+  #register:hover{
+    background-color: white;
+    color: #E63888;
+  }
+
+
+  /***********BOTON DE REGISTRO*************/
+  #toggle{
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+    display: flex;
+  }
+
+  #toggle:checked ~ dialog {
+    display: block;
+  }
+
+  #register{
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-indent: 45px;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #E63888;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    display: flex;
+  }
+
+  #register:hover{
+    background-color: white;
+    color: #E63888;
+  }
+
+  #textolegal{
+    font-size: 17px;
+  }
+
+  @keyframes appear {
+    0%{
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+  }
+
+  dialog{
+    animation: appear 350ms ease-in 1;
+    width: 300px;
+    border: none;
+    margin-top: -550px;
+  }
+
+   .accept{
+    height: 30px;
+    width: 115px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #E63888;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    float: right;
+  }
+
+  .accept:hover{
+    color: #E63888;
+    background-color: white;
+    border: solid 1px #E63888;
+  }
+
+  #cancela{
+    height: 30px;
+    width: 115px;
+    line-height: 30px;
+    background-color: #E63888;
+    text-align: center;
+    border-radius: 20px;
+    float: left;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #cancela:hover{
+    color: #E63888;
+    background-color: white;
+    border: solid 1px #E63888;
+  }
+
+  #toogle, a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  /*****************************Recover******************************/
+
+
+  #recupera{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .caixa{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #E63888;
+    margin-left: 15%;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    margin-top: 50px;
+    outline: none;
+    text-indent: 5px;
+  }
+
+  #recover{
+    height: 30px;
+    width: 125px;
+    background-color: #E63888;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  #restaura, a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+  /*****************************premium******************************/
+
+
+  #premium{
+    margin: 0;
+    padding: 0;
+  }
+
+  #caja{
+    height: 35px;
+    width: 270px;
+    background: transparent;
+    margin: 0 auto;
+    margin-left: 70px;
+    margin-top: 230px;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    font-size: 25px;
+    text-indent: 25px;
+  }
+
+  #codi{
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+  }
+
+  #buton{
+    width: 130px;
+    height: 40px;
+    background-color: #E63888;
+    color: white;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+  }
+
+
+
+
+
+
+
+
+
+
+}

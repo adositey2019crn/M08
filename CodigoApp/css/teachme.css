@@ -1,0 +1,1400 @@
+@media only screen and (min-width: 645px){
+
+  /*****************************Login***************************************/
+
+    #loginscreen{
+      background-position: left;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      font-family: 'Nunito', sans-serif;
+      overflow-y: hidden;
+    }
+
+    #fondo{
+      float: right;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    #loginscreen a{
+      text-decoration: none;
+      color: white;
+    }
+
+    #logotm{
+      height: 250px;
+      margin-left: 250px;
+      margin-top: 230px;
+    }
+
+    #loginform{
+      margin-top: 20px;
+    }
+
+    #nom{
+      font-size: 90px;
+      margin-left: 270px;
+      margin-top: 20px;
+    }
+
+    .box{
+     margin: 0 auto;
+     width: 450px;
+     height: 40px;
+     border: 1px solid grey;
+     margin-top: 20px;
+     background-color: transparent;
+     border-radius: 50px;
+     background-color: white;
+     text-indent: 20px;
+     font-size: 20px;
+     outline: none;
+     display: block;
+     margin-left: 250px;
+   }
+
+   .box:hover{
+     border: 1px solid #E63888;
+   }
+
+   #register{
+     height: 50px;
+     width: 200px;
+     background-color: #E63888;
+     border-radius: 25px;
+     text-align: center;
+     line-height: 50px;
+     position: absolute;
+     top: 30px;
+     right: 50px;
+     font-size: 25px;
+     right: 20px;
+   }
+
+   #register:hover{
+     background-color: white;
+     color: #E63888;
+     border: 1px solid #E63888;
+   }
+
+    #sessio{
+      position: absolute;
+      left: 750px;
+      top: 81%;
+      text-decoration: none;
+      color: white;
+      background-color: #E63888;
+      height: 40px;
+      width: 150px;
+      text-align: center;
+      line-height: 42px;
+      border-radius: 30px;
+      font-size: 23px;
+   }
+
+   #sessio:hover{
+     background-color: white;
+     color: #E63888;
+     border: 1px solid #E63888;
+   }
+
+   #olvido{
+   font-size: 18px;
+   margin-left: 260px;
+   color: #5A9DD0;
+   margin-top: 20px;
+   float: left;
+  }
+
+  #olvido:hover{
+    color: #E63888;
+  }
+
+
+  /********************************Confirmació******************************/
+
+  #confirma{
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #confirma{
+    font-size: 35px;
+    text-align: center;
+    color: #173D7A;
+    margin-top: 100px;
+    line-height: 35px;
+  }
+
+  #confirma #btincia{
+    height: 50px;
+    width: 170px;
+    background-color: #E63888;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 23px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  #confirma h1{
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  #confirma #btincia:hover{
+    background-color: white;
+    color: #E63888;
+    border: 1px solid #E63888;
+  }
+
+  #confirma a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /********************************barra/atras******************************/
+
+
+
+  /*****************************Perfil*************************************/
+
+  #perfilpage{
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  #back{
+    width: 100%;
+    border-radius: 0 0 540px 540px;
+    filter: blur(1px);
+    margin-top: -36%;
+  }
+
+  #atras{
+    position: absolute;
+    width: 20px;
+    top: 30px;
+    left: 30px;
+    z-index: 1000000;
+  }
+
+  #perfilpage #pro{
+    border-radius: 50%;
+    height: 12%;
+    width: 12%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: -14%;
+    z-index: 1000;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 9px 20px 0 rgba(0, 0, 0, 2);
+  }
+
+  #user{
+    text-align: center;
+    margin-top: 50px;
+    z-index: 1000;
+    position: relative;
+    color: black;
+    font-size: 30px;
+  }
+
+  #rol{
+    text-align: center;
+    margin-top: -25px;
+    z-index: 1000;
+    position: relative;
+    color: black;
+    font-size: 20px;
+  }
+
+  #contenidor_descripcio{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #submenu{
+    width: 75%;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -10px;
+    border-top: 2px solid lightgrey;
+    font-size: 20px;
+  }
+
+  #apartats{
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #submenu .cv{
+    display: inline-block;
+    color: #222222;
+    line-height: 25px;
+    padding-left: 20%;
+    width: 80px;
+  }
+
+  #perfilpage{
+    text-decoration: none;
+    color: #555;
+  }
+  #perfilpage a:active,{
+  border-top: 2px solid #E53988;
+  color: #E53988;
+  text-decoration: none;
+  }
+
+  #perfilpage a:hover {
+    border-top: 2px solid #E53988;
+    padding-top: 20px;
+    color: #E53988;
+    opacity: 1;
+  }
+
+  #perfilpage a:visited{
+    display: inline-block;
+    text-decoration: none;
+    border-top: 2px solid;
+  }
+  #perfilpage a.current:focus{
+    border-top: 2px solid #E53988;
+    padding-top: 20px;
+    color: #E53988;
+    opacity: 1;
+  }
+
+  #estudios{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    z-index: 1000;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  #editar{
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 100px;
+    color:white;
+    background-color: #E53988;
+    border-radius: 25px;
+  }
+
+  /*****************************Tips***************************************/
+
+  #tips{
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #cdcdcd;
+    overflow-x: hidden;
+  }
+
+  #tips #barra{
+    width: 100%;
+    height: 60px;
+    background-color: #FF2C9C;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    margin-top: -90px;
+  }
+
+  #atras{
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    z-index: 1000000;
+  }
+
+
+  #nomb{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+  }
+
+  #tips a{
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
+
+  #tips a:hover{
+    color: #FF2C9C;
+  }
+
+  #atras{
+    position: absolute;
+    width: 20px;
+    top: 13px;
+    left: 20px;
+    z-index: 1000000;
+  }
+
+  .tituls{
+    color: #173D7A;
+    text-align: center;
+    padding-top: 2%;
+
+  }
+
+  #tituls br{
+    display: none;
+  }
+
+  .contenedor{
+    margin: 0 auto;
+    width: 45%;
+    height: 350px;
+    border: 1px solid grey;
+    border-radius: 2%;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  #portatil{
+    background-image: url("../img/portatil.png");
+    background-size: 200px 225px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-top: 90px;
+  }
+
+  #mobil{
+    background-image: url("../img/scanner.png");
+    background-size: 200px 205px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 0;
+  }
+
+  #libros{
+    background-image: url("../img/learn.png");
+    background-size: 200px 205px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 0;
+  }
+
+  .info_profe{
+    margin: 25px;
+    color: black;
+    font-size: 15px;
+  }
+
+  /*****************************contact***************************************/
+
+  #contactspage{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+
+  #contingut{
+    margin: 0;
+    padding: 0;
+    margin-top: 90px;
+  }
+
+  #contactspage #barra{
+    margin-top: -90px;
+  }
+
+  #contacts{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+
+  #contacts:hover{
+    opacity: 0.8;
+  }
+
+  .nom{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-top: solid 1px darkgrey;
+  }
+
+  .nom:hover{
+    opacity: 0.5;
+  }
+
+  .nombre{
+    margin: 0;
+    padding: 0;
+    margin-left: 75px;
+    margin-top: 13px;
+    color: #173D7A;
+  }
+
+  .mensaje{
+    margin: 0;
+    padding: 0;
+    margin-left: 75px;
+    color: black;
+  }
+
+  #online{
+    height: 15px;
+    width: 15px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    float: right;
+    margin-top: -43px;
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  #online1{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    float: right;
+    margin-top: -43px;
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  #contingut img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid grey;
+  }
+
+
+  #contactspage a{
+    text-decoration: none;
+  }
+
+  /*****************************ajuda***************************************/
+
+  #ajuda{
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #cdcdcd;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  #barra{
+    width: 100%;
+    height: 60px;
+    background-color: #FF2C9C;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 0px;
+  }
+
+  #atras{
+    position: absolute;
+    width: 20px;
+    top: 15px;
+    left: 20px;
+    z-index: 1000000;
+  }
+
+
+  #ajuda a{
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
+
+  #ajuda a:hover{
+    color: #FF2C9C;
+  }
+
+  #dona{
+    height: 350px;
+    width: 570px;
+    margin-top: 50px;
+    margin-left: 35%;
+  }
+
+  #text{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: -20px;
+  }
+
+  #ajudas{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    width: 720px;
+    height: 165px;
+  }
+
+  #box1{
+    background-image: url(../img/chat.png);
+    background-position: center;
+    background-size: 200px 140px;
+    width: 180px;
+    height: 140px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-right: 60px;
+  }
+
+  #box2{
+    background-image: url(../img/correo.png);
+    background-position: center;
+    background-size: 200px 140px;
+    width: 180px;
+    height: 140px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-left: 60px;
+  }
+
+  #ajuda p{
+    color: #FF2C9C;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  /*****************************ajustes***************************************/
+
+  #ajustes{
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #ajustes #barra{
+    margin-top: -90px;
+  }
+
+  .contacts{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid grey;
+
+  }
+
+  .contacts:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .seccions{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    color: black;
+  }
+
+
+  /*****************************editar***************************************/
+
+  #editarpage{
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+  #pro{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 42%;
+    position: relative;
+    margin-top: 80px;
+  }
+
+  #edit{
+    margin-left: 40%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  #editarpage #barra{
+    margin-top: -90px;
+  }
+
+  #editarpage h2{
+    color: #173D7A;
+    position: relative;
+    margin-top: 25px;
+  }
+
+  #editarpage input{
+    outline: none;
+  }
+
+  #editarpage .box{
+    width: 280px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #E63888;
+    font-size: 19px;
+    margin-top: -20px;
+    position: absolute;
+    background: transparent;
+    outline: none;
+    margin-left: 2px;
+    border-radius: 0px;
+    text-indent: 0px;
+  }
+
+  #guarda{
+    float: right;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #E63888;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 860px;
+    margin-top: 20px;
+  }
+
+  #guarda:hover{
+    background-color: white;
+    color: #E63888;
+    border: 1px solid #E63888;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 645px){
+
+  /*****************************Login***************************************/
+
+    #loginscreen{
+      background-image: url("../img/fondo.png");
+      background-size: cover;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    #fondo{
+      visibility: hidden;
+      height: 0;
+    }
+
+    #nom{
+      display: none;
+    }
+
+    #register{
+      height: 30px;
+      width: 125px;
+      background-color: #E63888;
+      border-radius: 25px;
+      text-align: center;
+      line-height: 30px;
+      margin-left: 60%;
+    }
+
+    #loginform{
+      margin-top: 450px;
+      margin-left: 20px;
+    }
+
+     .box{
+      margin: 0 auto;
+      width: 200px;
+      height: 30px;
+      border: 1px solid grey;
+      margin-bottom: 20px;
+      background-color: transparent;
+      border-radius: 30px;
+      background-color: white;
+      text-indent: 20px;
+      font-size: 20px;
+      float: left;
+      outline: none;
+    }
+
+    #sessio{
+      text-decoration: none;
+      position: absolute;
+      top: 573px;
+      left: 250px;
+      font-size: 17px;
+      color: white;
+      background-color: #E63888;
+      height: 25px;
+      width: 100px;
+      text-align: center;
+      line-height: 25px;
+      margin-right: 50px;
+      border-radius: 25px;
+    }
+
+    #logotm{
+      position: absolute;
+      height: 120px;
+      top: 80px;
+      left: 30px;
+      z-index: 100000;
+    }
+
+    .butons, a{
+      text-decoration: none;
+      color: white;
+    }
+
+    #loginscreen .butons, #olvido{
+      clear: both;
+      font-size: 12px;
+      margin-left: 25px;
+      color: #5A9DD0;
+      cursor: pointer;
+    }
+
+  /********************************Confirmació******************************/
+
+    #confirma{
+      background-color: white;
+      font-family: 'Nunito', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #confirma h1{
+      font-size: 25px;
+      text-align: center;
+      color: #173D7A;
+      margin-top: 150px;
+      line-height: 25px;
+    }
+
+    #btincia{
+      height: 30px;
+      width: 150px;
+      background-color: #E63888;
+      border-radius: 20px;
+      line-height: 30px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      font-size: 15px;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+
+    #btincia:hover{
+      background-color: white;
+      color: #E63888;
+    }
+
+    #confrima, a{
+      color: white;
+      text-decoration: none;
+    }
+
+
+  /********************************barra/atras******************************/
+
+    body{
+      background-color: white;
+      font-family: 'Nunito', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+    #barra{
+      height: 60px;
+      width: 100%;
+      background-color: #FF2C9C;
+      position: relative;
+    }
+
+    #atras{
+      position: absolute;
+      width: 20px;
+      top: 13px;
+      left: 20px;
+      z-index: 1000000;
+    }
+
+    h1{
+      padding: 0;
+      text-align: center;
+      line-height: 60px;
+      margin-top: 0px;
+      color: white;
+      font-size: 25px;
+    }
+
+  /*****************************Perfil*************************************/
+
+    #perfilpage{
+      background-color: white;
+      font-family: 'Nunito', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+    #back{
+      height: 220px;
+      width: 100%;
+      border-radius: 0 0 230px 230px;
+      background-size: contain;
+      filter: blur(1px);
+    }
+
+    #atras{
+      position: absolute;
+      width: 20px;
+      top: 15px;
+      left: 25px;
+      z-index: 1000000;
+    }
+
+    #perfilpage #pro{
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      margin-top: -200px;
+      z-index: 1000;
+      position: relative;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 9px 20px 0 rgba(0, 0, 0, 2);
+    }
+
+    #contenidor_descripcio{
+      width: 90%;
+      margin: 0 auto;
+
+    }
+
+    #user{
+      text-align: center;
+      margin-top: 10px;
+      z-index: 1000;
+      position: relative;
+      color: white;
+    }
+
+    #rol{
+      text-align: center;
+      margin-top: -15px;
+      z-index: 1000;
+      position: relative;
+      color: white;
+      font-size: 15px;
+    }
+
+    #estudios{
+      margin-left: 25px;
+      margin-right: 25px;
+      font-size: 15px;
+      z-index: 1000;
+      position: relative;
+      margin-top: 80px;
+    }
+
+    #editar{
+      position: absolute;
+      right: 50px;
+      bottom: 50px;
+      text-align: center;
+      line-height: 30px;
+      height: 30px;
+      width: 70px;
+      color:white;
+      background-color: #E53988;
+      border-radius: 15px;
+    }
+
+
+    #submenu{
+      width: 75%;
+      height: 40px;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 30px;
+      border-top: 2px solid lightgrey;
+    }
+
+    #apartats{
+      margin-left: 0;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    #submenu .cv{
+      display: inline-block;
+      color: #222222;
+      text-align: center;
+      line-height: 20px;
+      padding-left: 2px;
+      width: 80px;
+    }
+
+    .info{
+      text-decoration: none;
+      color: #555;
+    }
+    .info:active,{
+    border-top: 2px solid #E53988;
+    color: #E53988;
+    text-decoration: none;
+    }
+
+    .info:hover {
+      border-top: 2px solid #E53988;
+      padding-top: 16px;
+      color: #E53988;
+      opacity: 1;
+      padding-top: 16px;
+    }
+
+    .info:visited{
+      display: inline-block;
+      text-decoration: none;
+      border-top: 2px solid;
+    }
+    .info.current:focus{
+      border-top: 2px solid #E53988;
+      padding-top: 16px;
+      color: #E53988;
+      opacity: 1;
+      padding-top: 16px;
+    }
+
+
+
+
+  /*****************************Tips***************************************/
+
+    .tituls{
+      color: #173D7A;
+      text-align: center;
+      padding-top: 2%;
+
+    }
+    .contenedor{
+      margin: 0 auto;
+      width: 95%;
+      height: 350px;
+      border: 1px solid grey;
+      border-radius: 5%;
+      margin-top: 10px;
+    }
+
+    #portatil{
+      background-image: url("../img/portatil.png");
+      margin-top: 20px;
+      background-size: 200px 225px;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+
+    #mobil{
+      background-image: url("../img/scanner.png");
+      background-size: 200px 205px;
+      background-repeat: no-repeat;
+      background-position: bottom left;
+    }
+
+    #libros{
+      background-image: url("../img/learn.png");
+      background-size: 200px 205px;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+
+    .info_profe{
+      margin: 25px;
+      color: black;
+    }
+
+
+/*****************************contact***************************************/
+
+    #contingut{
+      margin-top: 0px;
+    }
+
+    #contacts{
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+    }
+
+    #contacts:hover{
+      opacity: 0.8;
+    }
+
+    .nom{
+      width: 100%;
+      height: 70px;
+      background-color: white;
+      border-top: solid 1px darkgrey;
+    }
+
+    #contactspage .nombre{
+      margin: 0;
+      padding: 0;
+      margin-left: 75px;
+      margin-top: 13px;
+      color: #173D7A;
+    }
+
+    #contactspage .mensaje{
+      margin: 0;
+      padding: 0;
+      margin-left: 75px;
+      color: black;
+    }
+
+    #online{
+      height: 15px;
+      width: 15px;
+      background-color: lightgreen;
+      border-radius: 50%;
+      float: right;
+      margin-top: -43px;
+      margin-right: 10px;
+      padding: 0;
+    }
+
+    #online1{
+      height: 15px;
+      width: 15px;
+      background-color: red;
+      border-radius: 50%;
+      float: right;
+      margin-top: -43px;
+      margin-right: 10px;
+      padding: 0;
+    }
+
+    #contingut img{
+      float: left;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin-top: 10px;
+      margin-left: 10px;
+      border: 1px solid grey;
+    }
+
+    #contacts a{
+      text-decoration: none;
+    }
+
+
+/*****************************ajustes***************************************/
+
+
+#ajustes{
+  background-color: white;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+#ajustes .contacts{
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid grey;
+}
+
+#ajustes .contacts:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#ajustes .seccions{
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+  margin-top: 3px;
+  color: black;
+}
+
+
+/*****************************Ajuda***************************************/
+
+    #dona{
+      margin-left: 9%;
+      margin-top: 80px;
+    }
+
+    #text{
+      font-size: 30px;
+      margin-top: -25px;
+      color: black;
+      text-align: center;
+    }
+
+    #ajudas p{
+      color: #FF2C9C;
+      font-size: 17px;
+      text-align: center;
+      margin-left: 5px;
+      margin-top: 120px;
+    }
+
+    #ajudas{
+      margin: 0 auto;
+      display: flex;
+      margin-top: 20px;
+      outline: none;
+    }
+
+    #box1{
+      background-image: url(../img/chat.png);
+      background-position: center;
+      background-size: 200px 140px;
+      width: 180px;
+      height: 140px;
+      cursor: pointer;
+      margin: 0 auto;
+      outline: none;
+    }
+
+    #box2{
+      background-image: url(../img/correo.png);
+      background-position: center;
+      background-size: 200px 140px;
+      width: 180px;
+      height: 140px;
+      cursor: pointer;
+      margin: 0 auto;
+      outline: none;
+    }
+
+
+/*****************************Editar***************************************/
+
+
+    #editarpage{
+      background-color: white;
+      font-family: 'Nunito', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+    #editarpage #pro{
+      border-radius: 50%;
+      height: 170px;
+      width: 170px;
+      margin-left: 29%;
+      position: relative;
+      margin-top: 30px;
+    }
+
+    #edit{
+      margin-left: 18%;
+      margin-bottom: 50px;
+    }
+
+    #edit h2{
+      color: #173D7A;
+      position: relative;
+      margin-top: 25px;
+    }
+
+    #editarpage input{
+      outline: none;
+      text-indent: 0px;
+    }
+
+    #editarpage .box{
+      width: 280px;
+      height: 25px;
+      border: none;
+      border-bottom: 2px solid #E63888;
+      font-size: 19px;
+      margin-top: -20px;
+      position: absolute;
+      background: transparent;
+      outline: none;
+      border-radius: 0;
+    }
+
+    #guarda{
+      float: right;
+      width: 170px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #E63888;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      border-radius: 25px;
+      margin-right: 55px;
+      margin-top: 20px;
+    }
+
+
+/*****************************Editar***************************************/
+
+
+    #perfilprofepage{
+      background-color: white;
+      font-family: 'Nunito', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+    #perfilprofepage #pro{
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      margin-top: -200px;
+      z-index: 1000;
+      position: relative;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2), 0 9px 20px 0 rgba(0, 0, 0, 2);
+    }
+
+    #perfilprofepage #contenidor_descripcio{
+      width: 90%;
+    }
+
+    #perfilprofepage #user{
+      text-align: center;
+      margin-top: 10px;
+      z-index: 1000;
+      position: relative;
+      color: white;
+    }
+
+    #perfilprofepage #rol{
+      text-align: center;
+      margin-top: -15px;
+      z-index: 1000;
+      position: relative;
+      color: white;
+      font-size: 15px;
+    }
+
+    #perfilprofepage #editar{
+      visibility: hidden;
+    }
+
+
+    #perfilprofepage #submenu{
+      width: 75%;
+      height: 40px;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 30px;
+      border-top: 2px solid lightgrey;
+    }
+
+    #perfilprofepage #apartats{
+      margin-left: 0;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    #perfilprofepage #submenu .cv{
+      display: inline-block;
+      color: #222222;
+      text-align: center;
+      line-height: 20px;
+      padding-left: 2px;
+      width: 75px;
+    }
+
+    #perfilprofepage .info{
+      text-decoration: none;
+      color: #555;
+    }
+    #perfilprofepage .info:active,{
+    border-top: 2px solid #E53988;
+    color: #E53988;
+    text-decoration: none;
+    }
+
+    #perfilprofepage .info:hover {
+      border-top: 2px solid #E53988;
+      padding-top: 16px;
+      color: #E53988;
+      opacity: 1;
+      padding-top: 16px;
+    }
+
+    #perfilprofepage .info:visited{
+      display: inline-block;
+      text-decoration: none;
+      border-top: 2px solid;
+    }
+    #perfilprofepage .info.current:focus{
+      border-top: 2px solid #E53988;
+      padding-top: 16px;
+      color: #E53988;
+      opacity: 1;
+      padding-top: 16px;
+    }
+
+    #perfilprofepage p{
+      margin: 50px 30px 30px 30px;
+    }
+
+
+
+
+
+
+
+
+}

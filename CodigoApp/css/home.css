@@ -1,8 +1,8 @@
 ::-webkit-scrollbar{
   display: none;
 }
+@media only screen and (min-width: 645px){
 
-@media only screen and (max-width: 640px){
   body{
     background-color: #F8F8F8;
     margin: 0 auto;
@@ -19,7 +19,8 @@
     margin: 0;
     padding: 0;
     position: fixed;
-    margin-top: -90px;
+    margin-top: 0px;
+    margin-bottom: ;
   }
 
   h3{
@@ -41,8 +42,8 @@
 
   #menuToggle{
     display: block;
-    position: relative;
-    top:-55px;
+    position: fixed;
+    top: 20px;
     left: 25px;
     z-index: 1;
     -webkit-user-select: none;
@@ -51,7 +52,7 @@
 
   #menuToggle input{
     display: block;
-    width: 40px;
+    width: 90px;
     height: 32px;
     position: absolute;
     top: -7px;
@@ -101,7 +102,7 @@
   }
 
   #menu{
-    position: relative;
+    position: absolute;
     width: 220px;
     margin: -100px 0 0 -50px;
     padding: 50px;
@@ -109,6 +110,213 @@
     background: rgba(255,255,255,0.9);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    height: 1060px;
+  }
+
+  #menu li{
+    padding: 15px 0;
+    font-size: 22px;
+    margin-left: 60px;
+  }
+
+  #menuToggle input:checked ~ ul{
+    transform: none;
+  }
+
+  #menu #fotoperfil{
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-bottom: 15px;
+    background-image: url("../img/pic.jpg");
+    background-size: cover;
+  }
+
+  h1{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  #contenido{
+    width: 98%%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contenedor{
+    height: 290px;
+    width: 28%;
+    display: inline-block;
+    margin-top: 4%;
+    color: white;
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0;
+    outline: none;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  p{
+    padding: 20px;
+    font-size: 17px;
+  }
+
+  #arts{
+    background-image: url("../img/chica.jpg");
+    background-size: cover;
+  }
+
+  #cloud{
+    background-image: url("../img/chico.jpg");
+    background-size: cover;
+  }
+
+  #ingles{
+    background-image: url("../img/estudio.jpg");
+    background-size: cover;
+  }
+
+  #FOL{
+    background-image: url("../img/FOL.jpg");
+    background-size: cover;
+  }
+
+
+  #EIE{
+    background-image: url("../img/EIE.jpg");
+    background-size: cover;
+  }
+
+
+/*************************premium***************************************/
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 640px){
+  body{
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #cdcdcd;
+    overflow-x: hidden;
+  }
+
+  #nav{
+    width: 100%;
+    height: 60px;
+    background-color: #FF2C9C;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    margin-top: -90px;
+  }
+
+  h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
+
+  a:hover{
+    color: #FF2C9C;
+  }
+
+  #menuToggle{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    z-index: 1;
+    -webkit-user-select: none;
+  }
+
+  #menuToggle input{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  #menuToggle span{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child{
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2){
+    transform-origin: 0% 50%;
+  }
+
+  #menuToggle input:checked ~ span{
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(3){
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(2){
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu{
+    position: absolute;
+    width: 220px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: rgba(255,255,255,0.9);
+    list-style-type: none;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -131,7 +339,7 @@
     border-radius: 50%;
     margin-left: 20%;
     margin-bottom: 15px;
-    background-image: url(../img/pic.jpg);
+    background-image: url("../img/pic.jpg");
     background-size: cover;
   }
 
@@ -140,12 +348,20 @@
     color: black;
     text-align: center;
   }
+
   h2{
     color: white;
     margin-left: 25px;
     padding-top: 8%;
-
+    text-shadow: 0 0 3px black, 0 0 3px black;
   }
+
+  p{
+    margin: 25px;
+    color: white;
+    text-shadow: 0 0 3px black, 0 0 3px black;
+  }
+
   .contenedor{
     margin: 0 auto;
     width: 95%;
@@ -153,26 +369,55 @@
     background-color: #ccc;
     border-radius: 5%;
     margin-top: 10px;
+    outline: none;
   }
 
-  #post1{
+  .boton_profe{
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    width: 30px;
+    height: 60px;
+    background-color: #FF2C9C;
+    color: white;
+  }
+
+  #arts{
     background-image: url("../img/chica.jpg");
     background-size: cover;
     margin-top: 90px;
+    outline: none;
   }
 
-  #post2{
+  #cloud{
     background-image: url("../img/chico.jpg");
     background-size: cover;
+    outline: none;
   }
 
-  #post3{
+  #ingles{
     background-image: url("../img/estudio.jpg");
     background-size: cover;
+    outline: none;
   }
 
-  p{
-    margin: 25px;
-    color: white;
+  #FOL{
+    background-image: url("../img/FOL.jpg");
+    background-size: cover;
+    outline: none;
   }
+
+
+  #EIE{
+    background-image: url("../img/EIE.jpg");
+    background-size: cover;
+    outline:inherit;
+  }
+
+
+
+
+
+
+
 }
